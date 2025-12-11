@@ -95,3 +95,5 @@ def chat(request: ChatRequest):
         return {"response": response}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Chatbot failed: {e}")
+
+#done
