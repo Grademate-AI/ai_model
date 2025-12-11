@@ -1,0 +1,501 @@
+id,category,description,location,danger_score,health_risk,environment_damage,infrastructure_damage,fire_risk,flooding_indicator,urgency_keywords_score,human_harm_risk
+1,Flooding,"Street flooded after heavy rain, blocking movement.",Abule Egba,0.89,0.28,0.87,0.62,0.76,0.24,0.11,0.26
+2,Fire Hazard,Smoke coming from abandoned structure.,Ogba,0.48,0.15,0.35,0.41,0.69,0.68,0.23,0.95
+3,Street Light Fault,Street light not working for 2 weeks.,Badagry,0.95,0.27,0.33,0.57,0.53,0.36,0.98,0.56
+4,Road Damage,Damaged road making it difficult for vehicles to pass.,Ajah,0.97,0.14,0.8,0.48,0.11,0.4,0.88,0.73
+5,Road Damage,Large pothole causing traffic buildup.,Badagry,0.76,0.29,0.75,0.64,0.56,0.85,0.54,0.31
+6,Flooding,Floodwater entering shops and houses.,Badagry,0.47,0.36,0.24,0.72,0.49,0.24,0.63,0.87
+7,Electricity Outage,Transformer sparking and making noise.,Surulere,0.8,0.28,0.56,0.5,0.11,0.29,0.79,0.26
+8,Blocked Drainage,Drainage filled with plastic waste.,Surulere,0.13,0.76,0.6,0.18,0.12,0.81,0.56,0.51
+9,Electricity Outage,Transformer sparking and making noise.,Abule Egba,0.15,0.89,0.22,0.24,0.72,0.64,0.72,0.88
+10,Waste Management,Garbage not collected for over a week.,Badagry,0.96,0.6,0.29,0.86,0.71,0.67,0.82,0.53
+11,Street Light Fault,Street light not working for 2 weeks.,Yaba,0.7,0.57,0.75,0.84,0.6,0.98,0.11,0.76
+12,Road Damage,Large pothole causing traffic buildup.,Ikeja,0.19,0.46,0.25,0.79,0.53,0.11,0.54,0.66
+13,Environmental Pollution,Oil spill contaminating the ground.,Abule Egba,0.49,0.58,0.6,0.83,0.12,0.95,0.2,0.34
+14,Street Light Fault,Completely dark area at night due to faulty light.,Lekki,0.32,0.32,0.43,0.48,0.51,0.34,0.32,0.49
+15,Security Issue,Area experiencing constant theft at night.,Lekki,0.47,0.56,0.51,0.86,0.99,0.73,0.82,0.71
+16,Road Damage,Damaged road making it difficult for vehicles to pass.,Festac,0.17,0.27,0.27,0.49,0.59,0.45,0.72,0.31
+17,Road Damage,Damaged road making it difficult for vehicles to pass.,Agege,0.67,0.5,0.52,0.6,0.11,0.64,0.62,0.17
+18,Street Light Fault,Street light not working for 2 weeks.,Lekki,0.36,0.26,0.99,0.63,0.9,0.92,0.81,0.99
+19,Environmental Pollution,Burning refuse causing air pollution.,Victoria Island,0.65,0.39,0.96,0.67,0.8,0.52,0.8,0.57
+20,Security Issue,Suspicious gang movement reported.,Berger,0.94,0.13,0.77,0.79,0.38,0.94,0.84,0.22
+21,Water Leakage,Water leakage causing erosion.,Badagry,0.59,0.61,0.99,0.14,0.63,0.82,0.48,0.33
+22,Waste Management,Overflowing waste bins causing smell and flies.,Festac,0.64,0.83,0.8,0.72,0.77,0.78,0.13,0.49
+23,Flooding,"Street flooded after heavy rain, blocking movement.",Surulere,0.7,0.4,0.8,0.26,0.62,0.62,0.86,0.47
+24,Waste Management,Garbage not collected for over a week.,Berger,0.86,0.21,0.42,0.53,0.41,0.13,0.33,0.7
+25,Street Light Fault,Street light not working for 2 weeks.,Surulere,0.54,0.8,0.63,0.8,0.46,0.47,0.37,0.89
+26,Road Damage,Damaged road making it difficult for vehicles to pass.,Ikeja,0.59,0.56,0.23,0.52,0.6,0.78,0.41,0.45
+27,Street Light Fault,Street light not working for 2 weeks.,Ajah,0.65,0.18,0.56,0.66,0.58,0.19,0.79,0.89
+28,Flooding,Severe flooding due to blocked drainage.,Berger,0.93,0.65,0.3,0.93,0.6,0.5,0.96,0.11
+29,Blocked Drainage,Drainage filled with plastic waste.,Badagry,0.48,0.98,0.52,0.24,0.66,0.15,0.73,0.63
+30,Security Issue,Residents robbed by armed men.,Ikeja,0.1,0.87,0.27,0.31,0.29,0.64,0.26,0.28
+31,Environmental Pollution,Thick smoke from nearby factory.,Victoria Island,0.85,0.61,0.82,0.2,0.16,0.99,0.78,0.65
+32,Environmental Pollution,Oil spill contaminating the ground.,Victoria Island,0.66,0.55,0.85,0.8,0.31,0.47,0.36,0.26
+33,Street Light Fault,Street light not working for 2 weeks.,Lekki,0.2,0.84,0.34,0.59,0.37,0.91,0.13,0.26
+34,Security Issue,Residents robbed by armed men.,Ogba,0.76,0.21,0.68,0.41,0.38,0.64,0.11,0.18
+35,Electricity Outage,Electric poles tilted dangerously.,Abule Egba,0.47,0.47,0.45,0.76,0.17,0.97,0.12,0.4
+36,Environmental Pollution,Burning refuse causing air pollution.,Badagry,0.83,0.46,0.37,0.83,0.98,0.48,0.33,0.93
+37,Water Leakage,Strong water pressure burst the pipe overnight.,Maryland,0.87,0.98,0.22,0.95,0.5,0.92,0.83,0.96
+38,Street Light Fault,Street light not working for 2 weeks.,Ogba,0.78,0.26,0.5,0.17,0.78,0.79,0.98,0.91
+39,Blocked Drainage,Blocked gutter causing mosquitoes.,Abule Egba,0.74,0.32,0.71,0.37,0.74,0.77,0.37,0.24
+40,Road Damage,Part of the road collapsed after rainfall.,Festac,0.24,0.18,0.71,0.81,0.6,0.21,0.37,0.81
+41,Blocked Drainage,Drainage filled with plastic waste.,Badagry,0.33,0.45,0.12,0.51,0.27,0.84,0.69,0.66
+42,Environmental Pollution,Burning refuse causing air pollution.,Yaba,0.65,0.94,0.14,0.28,0.23,0.94,0.8,0.28
+43,Flooding,Floodwater entering shops and houses.,Maryland,0.15,0.61,0.73,0.38,0.9,0.38,0.16,0.56
+44,Blocked Drainage,Drainage filled with plastic waste.,Victoria Island,0.52,0.73,0.66,0.84,0.86,0.7,0.53,0.85
+45,Waste Management,Illegal dumping of refuse beside the road.,Maryland,0.12,0.33,0.96,0.94,0.2,0.89,0.38,0.88
+46,Street Light Fault,Completely dark area at night due to faulty light.,Agege,0.41,0.6,0.85,0.94,0.69,0.46,0.11,0.76
+47,Electricity Outage,Power outage for 48 hours.,Badagry,0.45,0.5,0.97,0.86,0.84,0.29,0.84,0.35
+48,Water Leakage,Water leakage causing erosion.,Ikeja,0.35,0.87,0.82,0.9,0.92,0.27,0.31,0.5
+49,Road Damage,Damaged road making it difficult for vehicles to pass.,Yaba,0.29,0.75,0.37,0.82,0.85,0.74,0.29,0.26
+50,Security Issue,Suspicious gang movement reported.,Yaba,0.43,0.77,0.81,0.7,0.4,0.96,0.77,0.37
+51,Electricity Outage,Electric poles tilted dangerously.,Badagry,0.26,0.89,0.22,0.18,0.15,0.53,1.0,0.37
+52,Electricity Outage,Transformer sparking and making noise.,Agege,0.96,0.62,0.45,0.61,0.96,0.83,0.78,0.79
+53,Fire Hazard,Electric wire sparking near transformer.,Abule Egba,0.36,0.35,0.51,0.36,0.29,0.3,0.15,0.37
+54,Electricity Outage,Power outage for 48 hours.,Berger,0.72,0.74,0.78,0.74,0.49,0.58,0.62,0.78
+55,Fire Hazard,Smoke coming from abandoned structure.,Ogba,0.48,0.61,0.9,0.28,0.97,0.44,0.22,0.44
+56,Flooding,"Street flooded after heavy rain, blocking movement.",Victoria Island,0.87,0.72,0.2,0.83,0.2,0.26,0.72,0.78
+57,Security Issue,Area experiencing constant theft at night.,Maryland,0.88,0.5,0.41,0.73,0.54,0.3,0.62,0.64
+58,Flooding,Floodwater entering shops and houses.,Yaba,0.35,0.77,0.75,0.52,0.44,0.75,0.7,0.22
+59,Street Light Fault,Completely dark area at night due to faulty light.,Ogba,0.63,0.76,0.81,0.85,0.88,0.74,0.65,0.89
+60,Security Issue,Suspicious gang movement reported.,Victoria Island,0.83,0.52,0.5,0.97,0.84,0.61,0.53,0.97
+61,Street Light Fault,Completely dark area at night due to faulty light.,Yaba,0.27,0.98,0.63,0.76,0.54,0.55,0.46,0.21
+62,Flooding,Floodwater entering shops and houses.,Ajah,0.23,0.1,0.58,0.24,0.83,0.48,0.85,0.91
+63,Waste Management,Illegal dumping of refuse beside the road.,Lekki,0.29,0.97,0.81,0.12,0.41,0.19,0.48,0.49
+64,Security Issue,Suspicious gang movement reported.,Yaba,0.77,0.28,0.53,0.36,0.65,0.37,0.28,0.9
+65,Environmental Pollution,Oil spill contaminating the ground.,Yaba,0.42,0.19,0.4,0.12,0.53,0.16,0.69,0.7
+66,Electricity Outage,Electric poles tilted dangerously.,Surulere,0.5,0.64,0.79,0.37,0.78,0.37,0.11,0.58
+67,Water Leakage,Strong water pressure burst the pipe overnight.,Surulere,0.21,0.85,0.21,0.67,0.8,0.45,0.31,0.52
+68,Water Leakage,Water leakage causing erosion.,Surulere,0.5,0.86,0.1,0.83,0.83,0.49,0.25,0.9
+69,Blocked Drainage,Blocked gutter causing mosquitoes.,Agege,0.35,0.14,0.32,0.55,0.58,0.57,0.33,0.59
+70,Street Light Fault,Completely dark area at night due to faulty light.,Maryland,0.41,0.61,0.72,0.17,0.15,0.89,0.38,0.23
+71,Environmental Pollution,Burning refuse causing air pollution.,Surulere,0.63,0.55,0.85,0.45,0.33,0.15,0.18,0.39
+72,Flooding,Severe flooding due to blocked drainage.,Agege,0.19,0.75,0.3,0.67,0.94,0.9,0.59,0.37
+73,Street Light Fault,Completely dark area at night due to faulty light.,Ogba,0.78,0.22,0.13,0.18,0.22,0.4,0.17,0.68
+74,Water Leakage,Burst water pipe wasting clean water.,Berger,0.57,0.8,0.41,0.36,0.57,0.83,0.69,0.91
+75,Environmental Pollution,Oil spill contaminating the ground.,Ogba,0.65,0.86,0.72,0.14,0.57,0.81,0.11,0.82
+76,Environmental Pollution,Oil spill contaminating the ground.,Oshodi,0.13,0.67,0.1,0.12,0.78,0.59,0.86,0.94
+77,Street Light Fault,Flickering light causing visibility issues.,Festac,0.48,0.74,0.83,0.78,0.56,0.23,1.0,0.14
+78,Road Damage,Part of the road collapsed after rainfall.,Abule Egba,0.35,0.83,0.55,0.31,0.75,0.95,0.47,0.64
+79,Water Leakage,Strong water pressure burst the pipe overnight.,Ikorodu,0.55,0.8,0.89,0.98,0.91,0.57,0.76,0.99
+80,Flooding,Floodwater entering shops and houses.,Yaba,0.41,0.98,0.87,0.46,0.95,0.22,0.24,0.32
+81,Environmental Pollution,Oil spill contaminating the ground.,Yaba,0.16,0.29,0.5,0.59,0.52,0.16,0.58,0.25
+82,Environmental Pollution,Thick smoke from nearby factory.,Agege,0.94,0.53,0.41,0.55,0.39,0.6,0.79,0.95
+83,Flooding,Floodwater entering shops and houses.,Berger,0.93,0.4,0.85,0.24,0.61,0.96,0.22,0.26
+84,Environmental Pollution,Burning refuse causing air pollution.,Ogba,0.66,0.58,1.0,0.1,0.58,0.5,0.6,0.98
+85,Security Issue,Area experiencing constant theft at night.,Ikorodu,0.28,0.49,0.29,0.98,0.63,0.51,0.9,0.68
+86,Street Light Fault,Completely dark area at night due to faulty light.,Abule Egba,0.77,0.37,0.94,0.22,0.9,0.94,0.12,0.4
+87,Blocked Drainage,Sewage water overflowing onto the street.,Ogba,0.63,0.28,0.3,0.23,0.13,0.43,0.25,0.76
+88,Blocked Drainage,Drainage filled with plastic waste.,Victoria Island,0.17,0.15,0.89,0.74,0.15,0.51,0.67,0.57
+89,Environmental Pollution,Oil spill contaminating the ground.,Ogba,0.15,0.59,0.9,0.42,0.42,0.93,0.51,0.86
+90,Environmental Pollution,Thick smoke from nearby factory.,Maryland,0.25,0.75,0.19,0.51,0.85,0.28,0.79,0.43
+91,Blocked Drainage,Sewage water overflowing onto the street.,Oshodi,0.4,0.12,0.82,0.71,0.16,0.31,0.11,0.38
+92,Water Leakage,Strong water pressure burst the pipe overnight.,Berger,0.18,0.53,0.28,0.63,0.37,0.9,0.74,0.13
+93,Flooding,Floodwater entering shops and houses.,Lekki,0.13,0.71,0.76,0.84,0.21,0.63,0.38,0.78
+94,Security Issue,Residents robbed by armed men.,Ikorodu,0.52,0.43,0.57,0.64,0.81,0.29,0.81,0.83
+95,Waste Management,Illegal dumping of refuse beside the road.,Abule Egba,0.56,0.8,0.35,0.56,0.3,0.74,0.98,0.77
+96,Blocked Drainage,Sewage water overflowing onto the street.,Ajah,0.52,0.86,0.31,0.25,0.35,0.34,0.77,0.43
+97,Water Leakage,Strong water pressure burst the pipe overnight.,Agege,0.21,0.65,0.99,0.25,0.89,0.23,0.39,0.39
+98,Water Leakage,Strong water pressure burst the pipe overnight.,Berger,0.55,0.63,0.59,0.63,0.86,0.92,0.52,0.82
+99,Flooding,Floodwater entering shops and houses.,Ikeja,0.28,0.41,0.12,0.23,0.78,0.2,0.71,0.17
+100,Water Leakage,Burst water pipe wasting clean water.,Ikeja,0.79,0.89,0.7,0.83,0.56,0.19,0.85,0.97
+101,Fire Hazard,Gas smell around the building.,Berger,0.67,0.32,0.57,0.81,0.55,0.99,0.61,0.98
+102,Road Damage,Damaged road making it difficult for vehicles to pass.,Surulere,0.27,0.31,0.7,0.97,0.34,0.57,0.74,0.24
+103,Water Leakage,Burst water pipe wasting clean water.,Victoria Island,0.6,0.26,0.24,0.54,0.68,0.41,0.94,0.5
+104,Flooding,"Street flooded after heavy rain, blocking movement.",Festac,0.45,0.7,0.63,0.6,0.64,0.56,0.47,0.45
+105,Flooding,Floodwater entering shops and houses.,Surulere,0.31,0.21,0.85,0.49,0.48,0.46,0.72,0.2
+106,Waste Management,Overflowing waste bins causing smell and flies.,Ajah,0.61,0.47,0.32,0.4,0.13,0.74,0.82,0.95
+107,Road Damage,Part of the road collapsed after rainfall.,Abule Egba,0.73,0.74,0.23,0.65,0.72,0.4,0.94,0.59
+108,Fire Hazard,Smoke coming from abandoned structure.,Festac,0.46,0.58,0.56,0.43,0.98,0.52,0.11,0.53
+109,Blocked Drainage,Sewage water overflowing onto the street.,Badagry,0.91,0.24,0.21,0.13,0.48,0.27,0.1,0.33
+110,Electricity Outage,Transformer sparking and making noise.,Ikeja,0.5,0.79,0.83,0.2,0.8,0.74,0.53,0.86
+111,Electricity Outage,Power outage for 48 hours.,Berger,0.52,0.38,0.28,0.78,0.35,0.89,0.77,0.12
+112,Water Leakage,Water leakage causing erosion.,Badagry,0.43,0.98,0.44,0.7,0.78,0.37,0.88,0.42
+113,Blocked Drainage,Drainage filled with plastic waste.,Ajah,0.53,0.88,0.29,0.41,0.53,0.69,0.18,0.57
+114,Blocked Drainage,Blocked gutter causing mosquitoes.,Festac,0.7,0.79,0.74,0.84,0.21,0.74,0.73,0.37
+115,Environmental Pollution,Thick smoke from nearby factory.,Berger,0.82,0.86,0.55,0.6,0.43,0.39,0.25,0.11
+116,Fire Hazard,Electric wire sparking near transformer.,Ajah,0.64,0.34,0.99,0.76,0.8,0.52,0.79,0.34
+117,Flooding,Floodwater entering shops and houses.,Ikorodu,0.67,0.51,0.65,0.77,0.15,0.84,0.7,0.61
+118,Environmental Pollution,Thick smoke from nearby factory.,Maryland,0.68,0.63,0.24,0.71,0.49,0.27,0.64,0.96
+119,Street Light Fault,Street light not working for 2 weeks.,Agege,0.52,0.45,0.65,0.95,0.69,0.3,0.89,0.1
+120,Road Damage,Part of the road collapsed after rainfall.,Ajah,0.57,0.64,0.12,0.89,0.48,0.45,0.27,0.45
+121,Waste Management,Overflowing waste bins causing smell and flies.,Maryland,0.32,0.76,0.71,0.39,0.9,0.27,0.18,0.86
+122,Waste Management,Illegal dumping of refuse beside the road.,Ogba,0.25,0.61,0.54,0.51,0.79,0.28,0.95,0.17
+123,Security Issue,Residents robbed by armed men.,Abule Egba,0.37,0.3,0.52,0.17,0.43,0.11,0.38,0.14
+124,Environmental Pollution,Oil spill contaminating the ground.,Oshodi,0.66,0.74,0.43,0.89,0.25,0.39,0.45,0.15
+125,Waste Management,Overflowing waste bins causing smell and flies.,Yaba,0.4,0.87,0.33,0.69,0.78,0.28,0.22,0.44
+126,Road Damage,Part of the road collapsed after rainfall.,Oshodi,0.51,0.95,0.11,0.59,0.72,0.8,0.48,0.48
+127,Blocked Drainage,Blocked gutter causing mosquitoes.,Festac,0.18,0.74,0.38,0.48,0.76,0.33,0.54,0.31
+128,Road Damage,Damaged road making it difficult for vehicles to pass.,Maryland,0.53,0.38,0.68,0.54,0.9,0.83,0.46,0.58
+129,Road Damage,Part of the road collapsed after rainfall.,Berger,0.17,0.65,0.78,0.98,0.23,0.55,0.43,0.2
+130,Flooding,Floodwater entering shops and houses.,Yaba,0.81,0.27,0.2,0.54,0.73,0.57,0.23,0.27
+131,Waste Management,Overflowing waste bins causing smell and flies.,Maryland,0.31,0.96,0.13,0.38,0.37,0.22,0.92,0.3
+132,Road Damage,Part of the road collapsed after rainfall.,Maryland,0.94,0.45,0.21,0.44,0.72,0.93,0.78,0.79
+133,Waste Management,Illegal dumping of refuse beside the road.,Surulere,0.29,0.71,0.4,0.58,0.64,0.48,0.35,0.93
+134,Road Damage,Damaged road making it difficult for vehicles to pass.,Ogba,0.38,0.24,0.93,0.89,0.53,0.25,0.54,0.56
+135,Electricity Outage,Transformer sparking and making noise.,Ikeja,0.65,0.88,0.79,0.85,0.18,0.71,0.14,0.57
+136,Fire Hazard,Gas smell around the building.,Berger,0.88,0.29,0.67,0.19,0.56,0.9,0.29,0.91
+137,Security Issue,Suspicious gang movement reported.,Yaba,0.77,0.95,0.69,0.8,0.7,0.98,0.54,0.4
+138,Environmental Pollution,Oil spill contaminating the ground.,Surulere,0.77,0.53,0.28,0.75,0.14,0.61,0.46,0.9
+139,Security Issue,Residents robbed by armed men.,Berger,0.5,0.75,0.89,0.38,0.25,0.13,0.57,0.46
+140,Electricity Outage,Electric poles tilted dangerously.,Abule Egba,0.77,0.38,0.12,0.6,0.68,0.91,0.23,0.65
+141,Flooding,Floodwater entering shops and houses.,Ogba,0.95,0.86,0.95,0.68,0.8,0.23,0.41,0.88
+142,Environmental Pollution,Oil spill contaminating the ground.,Maryland,0.65,0.48,0.46,0.68,0.86,0.35,0.9,0.49
+143,Fire Hazard,Gas smell around the building.,Festac,0.15,0.63,0.81,0.12,0.83,0.6,0.79,0.46
+144,Blocked Drainage,Blocked gutter causing mosquitoes.,Ajah,0.98,0.84,0.57,0.52,0.83,0.49,0.78,0.36
+145,Blocked Drainage,Blocked gutter causing mosquitoes.,Lekki,0.23,0.33,0.14,0.81,0.53,0.17,0.92,0.67
+146,Security Issue,Suspicious gang movement reported.,Festac,0.61,0.18,0.51,0.65,0.87,0.17,0.8,0.65
+147,Blocked Drainage,Drainage filled with plastic waste.,Abule Egba,0.47,0.11,0.66,0.66,0.64,0.11,0.83,0.32
+148,Waste Management,Garbage not collected for over a week.,Ikorodu,0.4,0.47,0.66,0.36,0.24,0.58,0.2,0.35
+149,Electricity Outage,Electric poles tilted dangerously.,Ogba,0.68,0.77,0.78,0.32,0.58,0.78,0.63,0.52
+150,Flooding,Severe flooding due to blocked drainage.,Ajah,0.81,0.95,0.29,0.91,0.86,0.37,0.22,0.1
+151,Fire Hazard,Electric wire sparking near transformer.,Surulere,0.22,0.87,0.16,0.4,0.58,0.45,0.6,0.26
+152,Environmental Pollution,Oil spill contaminating the ground.,Yaba,0.75,0.61,0.52,0.85,0.71,0.8,0.72,0.45
+153,Flooding,Severe flooding due to blocked drainage.,Berger,0.19,0.41,0.38,0.54,0.14,0.7,0.86,0.58
+154,Water Leakage,Burst water pipe wasting clean water.,Victoria Island,0.15,0.97,0.35,0.56,0.64,0.7,0.58,0.49
+155,Street Light Fault,Flickering light causing visibility issues.,Ikorodu,0.11,0.44,0.12,0.19,0.83,0.73,0.84,0.26
+156,Road Damage,Large pothole causing traffic buildup.,Lekki,0.54,0.63,0.11,0.91,0.31,0.38,0.13,0.41
+157,Waste Management,Illegal dumping of refuse beside the road.,Lekki,0.47,0.58,0.29,0.46,0.79,0.21,0.3,0.95
+158,Road Damage,Part of the road collapsed after rainfall.,Oshodi,0.42,0.79,0.38,0.88,0.4,0.26,0.1,0.79
+159,Flooding,Floodwater entering shops and houses.,Lekki,0.16,0.44,0.47,0.79,0.16,0.24,0.23,0.17
+160,Fire Hazard,Gas smell around the building.,Abule Egba,0.99,0.52,0.92,0.86,0.21,0.26,0.13,0.78
+161,Environmental Pollution,Oil spill contaminating the ground.,Ajah,0.72,0.94,0.34,0.52,0.81,0.7,0.17,0.11
+162,Fire Hazard,Electric wire sparking near transformer.,Abule Egba,0.62,0.92,0.87,0.82,0.95,0.14,0.35,0.95
+163,Water Leakage,Water leakage causing erosion.,Ajah,0.53,0.93,0.77,0.19,0.3,0.42,0.57,0.66
+164,Road Damage,Large pothole causing traffic buildup.,Ogba,0.35,0.12,0.61,0.94,0.89,0.31,0.44,0.42
+165,Blocked Drainage,Sewage water overflowing onto the street.,Maryland,0.44,0.93,0.79,0.15,0.46,0.65,0.13,0.77
+166,Street Light Fault,Flickering light causing visibility issues.,Victoria Island,0.1,0.69,0.69,0.29,0.36,0.51,0.74,0.99
+167,Water Leakage,Water leakage causing erosion.,Abule Egba,0.25,0.58,0.31,0.28,0.23,0.44,0.51,0.62
+168,Waste Management,Garbage not collected for over a week.,Abule Egba,0.79,0.26,0.88,0.43,0.26,0.1,0.38,0.88
+169,Water Leakage,Burst water pipe wasting clean water.,Ogba,0.72,0.87,0.21,0.35,0.52,0.49,0.87,0.81
+170,Road Damage,Part of the road collapsed after rainfall.,Surulere,0.49,0.79,0.8,0.34,0.52,0.12,0.4,0.33
+171,Electricity Outage,Power outage for 48 hours.,Lekki,0.35,0.96,0.55,0.81,0.75,0.59,0.21,0.43
+172,Street Light Fault,Street light not working for 2 weeks.,Ikeja,0.24,0.78,0.13,0.18,0.23,0.66,0.35,0.82
+173,Electricity Outage,Electric poles tilted dangerously.,Berger,0.98,0.52,0.96,0.51,0.46,0.65,0.49,0.66
+174,Fire Hazard,Electric wire sparking near transformer.,Berger,0.45,0.69,0.63,0.77,0.24,0.58,0.93,0.59
+175,Fire Hazard,Gas smell around the building.,Ikeja,0.53,0.32,0.89,0.47,0.36,0.15,0.34,0.96
+176,Water Leakage,Water leakage causing erosion.,Festac,0.61,0.81,0.62,0.56,0.55,0.2,0.18,0.29
+177,Electricity Outage,Transformer sparking and making noise.,Agege,0.11,0.46,0.35,0.68,0.61,0.74,0.75,0.19
+178,Waste Management,Overflowing waste bins causing smell and flies.,Festac,0.39,0.85,0.18,0.76,0.15,0.91,0.69,0.56
+179,Water Leakage,Burst water pipe wasting clean water.,Victoria Island,0.69,0.99,0.71,0.61,0.96,0.53,0.43,0.63
+180,Road Damage,Part of the road collapsed after rainfall.,Ajah,0.21,0.96,0.28,0.81,0.79,0.52,0.93,0.12
+181,Street Light Fault,Street light not working for 2 weeks.,Agege,0.99,0.15,0.61,0.24,0.52,0.82,0.71,0.4
+182,Waste Management,Garbage not collected for over a week.,Lekki,0.19,0.96,0.65,0.46,0.79,0.96,0.53,0.69
+183,Fire Hazard,Electric wire sparking near transformer.,Victoria Island,0.17,0.22,0.9,0.9,0.68,0.86,0.8,0.3
+184,Fire Hazard,Gas smell around the building.,Yaba,0.63,0.49,0.84,0.84,0.67,0.42,0.43,0.72
+185,Flooding,Severe flooding due to blocked drainage.,Surulere,0.15,0.79,0.85,0.71,1.0,0.38,0.77,0.68
+186,Waste Management,Illegal dumping of refuse beside the road.,Berger,0.36,0.58,0.92,0.28,0.77,1.0,0.35,0.18
+187,Street Light Fault,Flickering light causing visibility issues.,Surulere,0.89,0.89,0.98,0.66,0.47,0.46,0.32,0.48
+188,Security Issue,Residents robbed by armed men.,Ajah,0.33,0.59,0.35,0.53,0.48,0.37,0.99,0.75
+189,Water Leakage,Water leakage causing erosion.,Yaba,0.63,0.16,0.14,0.39,0.74,0.86,0.38,0.37
+190,Security Issue,Residents robbed by armed men.,Ikorodu,0.17,0.68,0.44,0.95,0.24,0.71,0.25,0.67
+191,Blocked Drainage,Drainage filled with plastic waste.,Yaba,0.64,0.31,0.92,0.3,0.35,0.61,0.43,0.78
+192,Environmental Pollution,Oil spill contaminating the ground.,Agege,0.98,0.17,0.37,0.75,0.35,0.66,0.7,0.65
+193,Street Light Fault,Flickering light causing visibility issues.,Abule Egba,0.7,0.31,0.92,0.6,0.99,0.11,0.25,0.68
+194,Road Damage,Part of the road collapsed after rainfall.,Ajah,0.59,0.3,0.54,0.7,0.85,0.15,0.94,0.53
+195,Flooding,"Street flooded after heavy rain, blocking movement.",Oshodi,0.51,0.29,0.78,0.7,0.83,0.56,0.98,0.48
+196,Road Damage,Large pothole causing traffic buildup.,Festac,0.95,0.97,0.63,0.44,0.48,0.1,0.83,0.56
+197,Electricity Outage,Transformer sparking and making noise.,Ikeja,0.29,0.84,0.44,0.14,0.22,0.21,0.94,0.4
+198,Fire Hazard,Electric wire sparking near transformer.,Ajah,0.23,0.98,0.6,0.34,0.3,0.86,0.63,0.51
+199,Electricity Outage,Electric poles tilted dangerously.,Victoria Island,0.69,0.88,0.91,0.23,0.15,0.16,0.92,0.95
+200,Waste Management,Overflowing waste bins causing smell and flies.,Badagry,0.53,0.17,0.47,0.67,0.18,0.31,0.58,0.97
+201,Water Leakage,Water leakage causing erosion.,Maryland,0.51,0.57,0.16,0.9,0.27,0.44,0.14,0.24
+202,Street Light Fault,Completely dark area at night due to faulty light.,Berger,0.47,0.97,0.76,0.53,0.31,0.48,0.12,0.68
+203,Electricity Outage,Transformer sparking and making noise.,Badagry,0.49,0.73,0.42,0.79,0.19,0.36,0.35,0.61
+204,Flooding,"Street flooded after heavy rain, blocking movement.",Festac,0.44,0.64,0.24,0.23,0.87,0.44,0.45,0.43
+205,Waste Management,Overflowing waste bins causing smell and flies.,Oshodi,0.47,0.72,0.31,0.17,0.43,0.3,0.76,0.81
+206,Waste Management,Illegal dumping of refuse beside the road.,Ikeja,0.11,0.48,0.15,0.63,0.21,0.48,0.98,0.93
+207,Street Light Fault,Completely dark area at night due to faulty light.,Abule Egba,0.44,0.9,0.96,0.24,0.46,0.67,0.11,0.84
+208,Street Light Fault,Flickering light causing visibility issues.,Maryland,0.99,0.44,0.99,0.51,0.13,0.35,0.89,0.94
+209,Street Light Fault,Street light not working for 2 weeks.,Yaba,0.91,0.42,0.74,0.38,0.39,0.49,0.61,0.74
+210,Security Issue,Suspicious gang movement reported.,Ogba,0.17,0.79,0.99,0.71,0.46,0.31,1.0,0.98
+211,Electricity Outage,Electric poles tilted dangerously.,Ikorodu,0.19,0.32,0.55,0.39,0.26,0.85,0.43,0.2
+212,Electricity Outage,Transformer sparking and making noise.,Surulere,0.96,0.57,0.88,0.27,0.18,0.24,0.18,0.65
+213,Street Light Fault,Street light not working for 2 weeks.,Agege,0.62,0.31,0.3,0.69,0.96,0.25,0.61,0.39
+214,Street Light Fault,Street light not working for 2 weeks.,Agege,0.3,0.81,0.73,0.19,0.52,0.73,0.72,0.37
+215,Environmental Pollution,Oil spill contaminating the ground.,Badagry,0.24,0.95,0.15,0.28,0.88,0.46,0.5,0.29
+216,Waste Management,Garbage not collected for over a week.,Lekki,0.43,0.35,0.17,0.95,0.13,0.75,0.99,0.97
+217,Security Issue,Area experiencing constant theft at night.,Agege,0.62,0.68,0.84,0.7,0.49,0.96,0.99,0.1
+218,Security Issue,Suspicious gang movement reported.,Agege,0.22,0.58,0.79,0.69,0.58,0.49,0.89,0.92
+219,Security Issue,Residents robbed by armed men.,Agege,0.28,0.26,0.25,0.98,1.0,0.52,0.67,0.92
+220,Environmental Pollution,Thick smoke from nearby factory.,Oshodi,0.24,0.73,0.82,0.74,0.93,0.81,0.65,0.14
+221,Waste Management,Garbage not collected for over a week.,Festac,0.19,0.56,0.91,0.72,0.15,0.29,0.61,0.76
+222,Environmental Pollution,Oil spill contaminating the ground.,Oshodi,0.18,0.46,0.89,0.67,0.9,0.29,0.55,0.39
+223,Fire Hazard,Smoke coming from abandoned structure.,Ogba,0.53,0.79,0.71,0.14,0.54,0.78,0.58,0.9
+224,Security Issue,Residents robbed by armed men.,Maryland,0.61,0.44,0.41,0.12,0.94,0.43,0.94,0.37
+225,Waste Management,Illegal dumping of refuse beside the road.,Oshodi,0.78,0.49,0.14,0.64,0.78,0.67,0.51,0.6
+226,Security Issue,Suspicious gang movement reported.,Berger,0.37,0.96,0.79,0.38,0.93,0.93,1.0,0.32
+227,Street Light Fault,Flickering light causing visibility issues.,Oshodi,0.61,0.85,0.38,0.96,0.49,0.19,0.21,0.14
+228,Security Issue,Residents robbed by armed men.,Ajah,0.6,0.53,0.55,0.72,0.95,0.86,0.73,0.29
+229,Environmental Pollution,Burning refuse causing air pollution.,Ikorodu,0.93,0.31,0.3,0.36,0.99,0.32,0.12,0.88
+230,Waste Management,Illegal dumping of refuse beside the road.,Berger,0.82,0.91,0.93,0.83,0.14,0.68,0.96,0.57
+231,Blocked Drainage,Blocked gutter causing mosquitoes.,Lekki,0.44,0.52,0.19,0.49,0.78,0.72,0.8,0.52
+232,Environmental Pollution,Oil spill contaminating the ground.,Ajah,0.69,0.61,0.87,0.18,0.47,0.41,0.67,0.2
+233,Fire Hazard,Smoke coming from abandoned structure.,Victoria Island,0.6,0.81,0.42,0.65,0.89,0.77,0.83,0.38
+234,Environmental Pollution,Oil spill contaminating the ground.,Berger,0.81,0.26,0.44,0.21,0.42,0.42,0.22,0.13
+235,Water Leakage,Water leakage causing erosion.,Agege,0.73,0.22,0.55,0.48,0.85,0.49,0.21,0.27
+236,Street Light Fault,Flickering light causing visibility issues.,Agege,0.68,0.44,0.39,0.43,0.95,0.9,0.24,0.97
+237,Security Issue,Suspicious gang movement reported.,Ikeja,0.14,0.61,0.36,0.96,0.63,0.83,0.34,0.17
+238,Water Leakage,Water leakage causing erosion.,Badagry,0.73,0.95,0.36,0.29,0.76,0.27,0.43,0.62
+239,Electricity Outage,Transformer sparking and making noise.,Ikeja,0.62,0.91,0.32,0.65,0.94,0.77,0.24,0.91
+240,Flooding,Floodwater entering shops and houses.,Oshodi,0.46,0.29,0.23,0.36,0.52,0.34,0.21,0.24
+241,Waste Management,Illegal dumping of refuse beside the road.,Yaba,0.18,0.87,0.32,0.61,0.28,0.63,0.81,0.69
+242,Water Leakage,Burst water pipe wasting clean water.,Festac,0.63,0.44,0.74,0.95,0.56,0.25,0.51,0.18
+243,Road Damage,Large pothole causing traffic buildup.,Badagry,0.17,0.34,0.43,0.18,0.26,0.25,0.19,0.69
+244,Road Damage,Damaged road making it difficult for vehicles to pass.,Ikorodu,0.98,0.55,0.29,0.99,0.28,0.14,0.89,0.83
+245,Road Damage,Large pothole causing traffic buildup.,Yaba,0.46,0.75,0.42,0.64,0.64,0.87,0.64,0.77
+246,Environmental Pollution,Burning refuse causing air pollution.,Oshodi,0.4,0.53,0.33,0.51,0.89,0.87,0.27,0.39
+247,Fire Hazard,Electric wire sparking near transformer.,Oshodi,0.57,0.68,0.42,0.58,0.63,0.95,0.82,0.92
+248,Security Issue,Residents robbed by armed men.,Badagry,0.27,0.85,0.26,0.11,0.27,0.85,0.49,0.93
+249,Fire Hazard,Electric wire sparking near transformer.,Ikeja,0.54,0.62,0.91,0.53,0.81,0.74,0.58,1.0
+250,Street Light Fault,Street light not working for 2 weeks.,Berger,0.13,0.14,0.83,0.19,0.64,0.29,0.79,0.86
+251,Environmental Pollution,Thick smoke from nearby factory.,Berger,0.9,0.41,0.97,0.21,0.25,0.29,0.37,0.34
+252,Fire Hazard,Smoke coming from abandoned structure.,Berger,0.92,0.39,0.13,0.34,0.67,0.59,0.72,0.54
+253,Flooding,"Street flooded after heavy rain, blocking movement.",Victoria Island,0.54,0.69,0.15,0.59,0.58,0.58,0.94,0.21
+254,Fire Hazard,Electric wire sparking near transformer.,Victoria Island,0.47,0.69,0.74,0.74,0.12,0.23,0.73,1.0
+255,Street Light Fault,Flickering light causing visibility issues.,Abule Egba,0.47,0.89,0.73,0.62,0.95,0.49,0.41,0.76
+256,Water Leakage,Strong water pressure burst the pipe overnight.,Yaba,0.38,0.47,0.38,0.68,0.11,0.19,0.86,0.93
+257,Road Damage,Part of the road collapsed after rainfall.,Ogba,0.12,0.91,0.94,0.61,0.21,0.21,0.87,0.89
+258,Blocked Drainage,Sewage water overflowing onto the street.,Abule Egba,0.73,0.88,0.91,0.81,0.16,0.94,0.82,1.0
+259,Waste Management,Garbage not collected for over a week.,Yaba,0.96,0.64,0.1,0.83,0.88,0.28,0.22,0.84
+260,Electricity Outage,Transformer sparking and making noise.,Berger,0.51,0.62,0.44,0.98,0.31,0.74,0.28,0.18
+261,Environmental Pollution,Thick smoke from nearby factory.,Ajah,1.0,0.14,0.15,0.81,0.34,0.67,0.92,0.84
+262,Road Damage,Large pothole causing traffic buildup.,Ajah,0.65,0.39,0.83,0.61,0.88,0.76,0.92,0.89
+263,Road Damage,Large pothole causing traffic buildup.,Festac,0.93,0.32,0.7,0.28,0.17,0.11,0.58,0.91
+264,Blocked Drainage,Blocked gutter causing mosquitoes.,Victoria Island,0.86,0.54,0.49,0.9,0.93,0.96,0.68,0.41
+265,Road Damage,Part of the road collapsed after rainfall.,Oshodi,0.62,0.67,0.21,0.75,0.26,0.74,0.19,0.65
+266,Fire Hazard,Gas smell around the building.,Berger,0.45,0.23,0.42,0.23,0.44,0.69,0.34,0.39
+267,Water Leakage,Strong water pressure burst the pipe overnight.,Oshodi,0.28,0.73,0.11,0.47,0.73,0.11,0.65,0.49
+268,Fire Hazard,Gas smell around the building.,Agege,0.82,0.2,0.53,0.69,0.87,0.67,0.71,0.81
+269,Street Light Fault,Flickering light causing visibility issues.,Yaba,0.27,0.66,0.27,0.29,0.19,0.4,0.9,0.48
+270,Waste Management,Garbage not collected for over a week.,Yaba,0.73,0.6,0.44,0.19,0.67,0.36,0.11,0.65
+271,Fire Hazard,Electric wire sparking near transformer.,Ikorodu,0.6,0.87,0.69,0.2,0.83,0.72,0.25,0.3
+272,Waste Management,Illegal dumping of refuse beside the road.,Abule Egba,0.49,0.93,0.19,0.51,0.1,0.44,0.3,0.1
+273,Blocked Drainage,Sewage water overflowing onto the street.,Yaba,0.82,0.89,0.16,0.22,0.44,0.85,0.87,0.13
+274,Fire Hazard,Smoke coming from abandoned structure.,Lekki,0.85,0.54,0.99,0.84,0.14,0.77,0.89,0.6
+275,Water Leakage,Burst water pipe wasting clean water.,Lekki,0.17,0.48,0.54,0.73,0.33,0.16,0.95,0.81
+276,Electricity Outage,Transformer sparking and making noise.,Ajah,0.79,0.7,0.54,0.7,0.32,0.5,0.65,0.56
+277,Fire Hazard,Gas smell around the building.,Badagry,0.43,0.79,0.5,0.13,0.69,0.71,0.19,0.54
+278,Flooding,"Street flooded after heavy rain, blocking movement.",Oshodi,0.66,0.57,0.5,0.22,0.43,0.83,0.45,0.57
+279,Road Damage,Part of the road collapsed after rainfall.,Festac,0.45,0.32,0.23,0.65,0.48,0.32,0.51,0.65
+280,Environmental Pollution,Thick smoke from nearby factory.,Yaba,0.95,0.76,0.86,0.27,0.54,0.82,0.79,0.21
+281,Waste Management,Overflowing waste bins causing smell and flies.,Ikeja,0.44,0.77,0.22,0.56,0.17,0.78,0.61,0.84
+282,Environmental Pollution,Oil spill contaminating the ground.,Abule Egba,0.56,0.69,0.19,0.43,0.71,0.14,0.51,0.96
+283,Electricity Outage,Electric poles tilted dangerously.,Surulere,0.34,0.82,0.88,0.12,0.96,0.9,0.97,0.21
+284,Blocked Drainage,Sewage water overflowing onto the street.,Ogba,0.91,0.14,0.34,0.64,0.69,0.52,0.18,0.59
+285,Blocked Drainage,Drainage filled with plastic waste.,Badagry,0.6,0.59,0.91,0.65,0.68,0.85,0.76,0.24
+286,Electricity Outage,Electric poles tilted dangerously.,Festac,0.57,0.23,0.23,0.28,0.72,0.44,0.32,0.52
+287,Environmental Pollution,Oil spill contaminating the ground.,Festac,0.98,0.91,0.41,0.79,0.15,0.55,0.98,0.77
+288,Water Leakage,Strong water pressure burst the pipe overnight.,Maryland,0.49,0.31,0.88,0.28,0.19,0.68,0.94,0.68
+289,Street Light Fault,Street light not working for 2 weeks.,Ikeja,0.4,0.48,0.57,0.41,0.55,0.97,0.5,0.25
+290,Street Light Fault,Completely dark area at night due to faulty light.,Lekki,0.41,0.98,0.43,0.76,0.34,0.79,0.54,0.39
+291,Security Issue,Residents robbed by armed men.,Yaba,0.47,0.76,0.8,0.54,0.51,0.89,0.98,0.29
+292,Security Issue,Area experiencing constant theft at night.,Festac,0.36,0.78,0.1,0.44,0.72,0.2,0.49,0.55
+293,Fire Hazard,Gas smell around the building.,Oshodi,0.15,0.53,0.86,0.45,0.35,0.2,0.62,0.73
+294,Blocked Drainage,Sewage water overflowing onto the street.,Berger,0.94,0.39,0.98,0.33,0.16,0.39,0.43,0.89
+295,Road Damage,Part of the road collapsed after rainfall.,Surulere,0.8,0.6,0.9,0.29,0.91,0.94,0.18,0.42
+296,Water Leakage,Strong water pressure burst the pipe overnight.,Ikeja,0.69,0.56,0.2,0.88,0.95,0.83,0.54,0.5
+297,Water Leakage,Burst water pipe wasting clean water.,Festac,0.8,0.73,0.25,0.71,0.96,0.97,0.4,0.78
+298,Environmental Pollution,Thick smoke from nearby factory.,Berger,0.68,0.88,0.51,0.48,0.96,0.81,0.54,0.52
+299,Blocked Drainage,Sewage water overflowing onto the street.,Festac,0.86,0.14,0.31,0.69,0.62,0.56,0.54,0.17
+300,Fire Hazard,Gas smell around the building.,Surulere,0.48,0.47,0.97,0.3,0.79,0.17,0.71,0.99
+301,Waste Management,Garbage not collected for over a week.,Ajah,0.68,0.78,0.29,1.0,0.16,0.6,0.3,0.67
+302,Water Leakage,Water leakage causing erosion.,Ikeja,0.82,0.18,0.95,0.53,0.2,0.42,0.41,0.35
+303,Fire Hazard,Smoke coming from abandoned structure.,Ajah,0.11,0.37,0.69,0.59,0.41,0.61,0.83,0.56
+304,Water Leakage,Water leakage causing erosion.,Victoria Island,0.21,0.45,0.24,0.92,0.76,0.31,0.7,0.75
+305,Street Light Fault,Street light not working for 2 weeks.,Ikorodu,0.62,0.61,0.74,0.56,0.97,0.35,0.33,0.36
+306,Flooding,"Street flooded after heavy rain, blocking movement.",Ikorodu,0.12,0.9,0.9,0.3,0.77,0.5,0.76,0.26
+307,Road Damage,Large pothole causing traffic buildup.,Ogba,0.31,0.22,0.84,0.95,0.66,0.35,0.97,0.82
+308,Street Light Fault,Completely dark area at night due to faulty light.,Ikeja,0.73,0.81,0.84,0.96,0.43,0.48,0.12,0.43
+309,Environmental Pollution,Oil spill contaminating the ground.,Lekki,0.75,0.7,0.77,0.16,0.27,0.49,0.28,0.98
+310,Road Damage,Damaged road making it difficult for vehicles to pass.,Victoria Island,0.47,0.46,0.85,0.64,0.55,0.86,0.28,0.93
+311,Street Light Fault,Flickering light causing visibility issues.,Badagry,0.68,0.74,0.29,0.64,0.29,0.18,0.18,0.95
+312,Road Damage,Damaged road making it difficult for vehicles to pass.,Ogba,0.35,0.95,0.9,0.41,0.29,0.56,0.71,0.27
+313,Water Leakage,Burst water pipe wasting clean water.,Ikeja,0.27,0.55,0.73,0.11,0.25,0.57,0.84,0.27
+314,Fire Hazard,Smoke coming from abandoned structure.,Ajah,0.34,0.21,0.15,0.65,0.64,0.49,0.77,0.77
+315,Electricity Outage,Transformer sparking and making noise.,Ogba,0.62,0.19,0.99,0.99,0.86,0.35,0.78,0.89
+316,Road Damage,Large pothole causing traffic buildup.,Ikorodu,0.39,0.93,0.9,0.66,0.93,0.55,0.98,0.39
+317,Electricity Outage,Electric poles tilted dangerously.,Abule Egba,0.8,0.37,0.12,0.68,0.9,0.6,0.8,0.23
+318,Environmental Pollution,Oil spill contaminating the ground.,Badagry,0.48,0.82,0.94,0.89,0.17,0.11,0.27,0.33
+319,Fire Hazard,Smoke coming from abandoned structure.,Festac,0.35,0.78,0.98,0.4,0.14,0.68,0.28,0.83
+320,Electricity Outage,Power outage for 48 hours.,Berger,0.48,0.62,0.85,0.6,0.92,0.97,0.71,0.31
+321,Water Leakage,Burst water pipe wasting clean water.,Ikorodu,0.74,0.32,0.42,0.49,0.62,0.2,0.33,0.58
+322,Security Issue,Residents robbed by armed men.,Berger,0.34,0.96,0.74,0.27,0.82,0.53,0.91,0.66
+323,Blocked Drainage,Blocked gutter causing mosquitoes.,Agege,0.89,0.94,0.23,1.0,0.47,0.51,0.37,0.72
+324,Security Issue,Area experiencing constant theft at night.,Lekki,0.56,0.46,0.9,0.76,0.44,0.96,0.77,0.81
+325,Security Issue,Suspicious gang movement reported.,Ikorodu,0.85,0.79,0.43,0.93,0.26,0.2,0.91,0.78
+326,Fire Hazard,Gas smell around the building.,Ogba,0.87,0.71,0.25,0.1,0.88,0.58,0.34,0.23
+327,Flooding,Floodwater entering shops and houses.,Ikorodu,0.72,0.26,0.85,0.59,0.62,0.73,0.54,0.68
+328,Environmental Pollution,Burning refuse causing air pollution.,Berger,0.21,0.1,0.8,0.43,0.96,0.65,0.73,0.73
+329,Electricity Outage,Electric poles tilted dangerously.,Ogba,0.51,0.75,0.94,0.91,0.2,0.89,0.25,0.43
+330,Security Issue,Residents robbed by armed men.,Victoria Island,0.18,0.87,0.9,0.76,0.19,0.95,0.39,0.28
+331,Electricity Outage,Power outage for 48 hours.,Ikorodu,0.99,0.66,0.43,0.56,0.37,0.33,0.26,0.94
+332,Electricity Outage,Electric poles tilted dangerously.,Surulere,0.49,0.66,0.75,0.54,0.43,0.59,0.65,0.23
+333,Waste Management,Garbage not collected for over a week.,Victoria Island,0.69,0.19,0.9,0.34,0.37,0.63,0.23,0.59
+334,Flooding,Floodwater entering shops and houses.,Yaba,0.82,0.16,0.82,0.84,0.34,0.77,0.55,0.22
+335,Security Issue,Residents robbed by armed men.,Yaba,0.6,0.71,0.4,0.43,0.24,0.32,0.88,0.69
+336,Flooding,Severe flooding due to blocked drainage.,Victoria Island,0.58,0.43,0.17,0.87,0.68,0.25,0.57,0.23
+337,Street Light Fault,Completely dark area at night due to faulty light.,Victoria Island,0.38,0.95,0.51,0.3,0.45,0.86,0.26,0.68
+338,Water Leakage,Burst water pipe wasting clean water.,Berger,0.76,0.77,0.73,0.77,0.83,0.18,0.32,0.5
+339,Water Leakage,Burst water pipe wasting clean water.,Maryland,0.94,0.75,0.18,0.53,0.89,0.25,0.26,0.61
+340,Road Damage,Part of the road collapsed after rainfall.,Ajah,0.93,0.56,0.76,0.86,0.1,0.77,0.23,0.9
+341,Security Issue,Area experiencing constant theft at night.,Surulere,0.21,0.55,0.49,0.15,0.57,0.6,0.3,0.15
+342,Road Damage,Damaged road making it difficult for vehicles to pass.,Oshodi,0.77,0.91,0.3,0.83,0.35,0.9,0.11,0.88
+343,Street Light Fault,Street light not working for 2 weeks.,Ogba,0.69,0.35,0.79,0.43,0.79,0.44,0.69,0.76
+344,Road Damage,Large pothole causing traffic buildup.,Badagry,0.32,0.53,0.49,0.29,0.73,0.97,0.31,0.13
+345,Fire Hazard,Electric wire sparking near transformer.,Ikeja,0.27,0.63,0.27,0.99,0.11,0.75,0.88,0.86
+346,Street Light Fault,Flickering light causing visibility issues.,Festac,0.27,0.74,0.54,0.15,0.79,0.72,0.63,0.79
+347,Street Light Fault,Flickering light causing visibility issues.,Surulere,0.18,0.87,0.58,0.51,0.68,0.88,0.88,0.72
+348,Road Damage,Part of the road collapsed after rainfall.,Maryland,0.11,0.17,0.98,0.25,0.86,0.16,0.52,0.39
+349,Street Light Fault,Street light not working for 2 weeks.,Ikorodu,0.54,0.17,0.15,0.99,0.29,0.39,0.81,0.97
+350,Waste Management,Overflowing waste bins causing smell and flies.,Surulere,0.67,0.99,0.89,0.4,0.95,0.24,0.82,0.88
+351,Road Damage,Damaged road making it difficult for vehicles to pass.,Abule Egba,0.47,0.13,0.25,0.91,0.45,0.34,0.23,0.58
+352,Road Damage,Part of the road collapsed after rainfall.,Maryland,0.69,0.72,0.14,0.1,0.69,0.73,0.23,0.77
+353,Waste Management,Overflowing waste bins causing smell and flies.,Lekki,0.4,0.42,0.44,0.12,0.73,0.42,0.84,0.36
+354,Blocked Drainage,Blocked gutter causing mosquitoes.,Ikorodu,0.48,0.13,0.53,0.97,0.94,0.24,0.65,0.28
+355,Fire Hazard,Smoke coming from abandoned structure.,Maryland,0.98,0.76,0.14,0.57,0.87,0.69,0.14,0.19
+356,Electricity Outage,Transformer sparking and making noise.,Berger,0.86,0.76,0.69,0.99,0.71,0.95,0.33,0.35
+357,Security Issue,Area experiencing constant theft at night.,Festac,0.48,0.97,0.12,0.57,0.6,0.42,0.48,0.58
+358,Water Leakage,Burst water pipe wasting clean water.,Ikorodu,0.58,0.49,0.4,0.39,0.68,0.55,0.81,0.38
+359,Flooding,Floodwater entering shops and houses.,Surulere,0.52,0.81,0.27,0.95,0.32,0.39,0.5,0.74
+360,Road Damage,Damaged road making it difficult for vehicles to pass.,Abule Egba,0.6,0.44,0.46,0.9,0.18,0.36,0.67,0.89
+361,Blocked Drainage,Blocked gutter causing mosquitoes.,Agege,0.31,0.94,0.73,0.67,0.61,0.54,0.32,0.41
+362,Fire Hazard,Smoke coming from abandoned structure.,Ajah,0.82,0.74,0.77,0.15,0.57,0.49,0.95,0.42
+363,Road Damage,Part of the road collapsed after rainfall.,Yaba,0.51,0.37,0.86,0.74,0.81,0.92,0.58,0.99
+364,Fire Hazard,Smoke coming from abandoned structure.,Ikorodu,0.6,0.57,0.64,0.97,0.53,0.4,0.79,0.53
+365,Flooding,"Street flooded after heavy rain, blocking movement.",Abule Egba,0.44,0.97,0.4,0.86,0.62,0.49,0.86,0.9
+366,Flooding,"Street flooded after heavy rain, blocking movement.",Lekki,0.91,0.48,0.75,0.57,0.35,0.58,0.58,0.72
+367,Road Damage,Part of the road collapsed after rainfall.,Ikeja,0.32,0.39,0.93,0.73,0.61,0.86,0.26,0.92
+368,Street Light Fault,Street light not working for 2 weeks.,Maryland,0.94,0.59,0.35,0.83,0.31,0.87,0.55,0.24
+369,Flooding,Floodwater entering shops and houses.,Agege,0.33,0.51,0.37,0.17,0.84,0.82,0.21,0.6
+370,Security Issue,Suspicious gang movement reported.,Oshodi,0.51,0.34,0.71,0.43,0.48,0.49,0.16,0.24
+371,Road Damage,Part of the road collapsed after rainfall.,Ikorodu,0.97,0.68,0.6,0.39,0.68,0.51,0.55,0.67
+372,Environmental Pollution,Burning refuse causing air pollution.,Ikorodu,0.82,0.58,0.21,0.47,0.95,0.87,0.22,0.11
+373,Street Light Fault,Street light not working for 2 weeks.,Ikeja,0.67,0.42,0.42,0.8,0.96,0.15,0.33,0.45
+374,Electricity Outage,Transformer sparking and making noise.,Yaba,0.46,0.35,0.26,0.78,0.44,0.4,0.95,0.29
+375,Fire Hazard,Gas smell around the building.,Badagry,0.52,0.76,0.19,0.88,0.16,0.22,0.31,0.79
+376,Waste Management,Illegal dumping of refuse beside the road.,Ogba,0.38,0.97,0.8,0.65,0.57,0.44,0.65,0.63
+377,Water Leakage,Burst water pipe wasting clean water.,Ogba,0.45,0.85,0.15,0.72,0.95,0.88,0.58,0.71
+378,Water Leakage,Strong water pressure burst the pipe overnight.,Festac,0.96,0.6,0.46,1.0,0.8,0.26,0.46,0.39
+379,Road Damage,Damaged road making it difficult for vehicles to pass.,Yaba,0.4,0.6,0.21,0.97,0.61,0.3,0.54,0.13
+380,Street Light Fault,Flickering light causing visibility issues.,Ikorodu,0.9,0.82,0.93,0.24,0.53,0.4,0.51,0.18
+381,Waste Management,Overflowing waste bins causing smell and flies.,Maryland,0.22,0.77,0.99,0.43,0.21,0.73,0.27,0.7
+382,Road Damage,Damaged road making it difficult for vehicles to pass.,Victoria Island,0.33,0.25,0.58,0.7,0.53,0.96,0.75,0.64
+383,Fire Hazard,Gas smell around the building.,Agege,0.52,0.8,0.54,0.35,0.74,0.98,0.91,0.66
+384,Fire Hazard,Electric wire sparking near transformer.,Agege,0.95,0.6,0.81,0.73,0.46,0.25,0.83,0.37
+385,Flooding,Floodwater entering shops and houses.,Oshodi,0.96,0.77,0.9,0.85,0.86,0.93,0.42,0.38
+386,Environmental Pollution,Oil spill contaminating the ground.,Victoria Island,0.43,0.17,0.53,0.95,0.19,0.7,0.12,0.82
+387,Street Light Fault,Street light not working for 2 weeks.,Festac,0.76,0.63,0.88,0.23,0.37,0.17,0.48,0.87
+388,Road Damage,Large pothole causing traffic buildup.,Lekki,0.63,0.22,0.82,0.3,0.12,0.5,0.16,0.24
+389,Environmental Pollution,Burning refuse causing air pollution.,Berger,0.64,0.71,0.63,0.6,0.95,0.75,0.2,0.7
+390,Flooding,Severe flooding due to blocked drainage.,Oshodi,0.28,0.28,0.89,0.35,0.51,0.83,0.97,0.43
+391,Blocked Drainage,Sewage water overflowing onto the street.,Yaba,0.89,0.76,0.69,0.12,0.84,0.85,0.64,0.22
+392,Environmental Pollution,Burning refuse causing air pollution.,Maryland,0.73,0.29,0.85,0.51,0.82,0.47,1.0,0.7
+393,Environmental Pollution,Thick smoke from nearby factory.,Berger,0.8,0.14,0.31,0.58,0.86,0.82,0.45,0.98
+394,Water Leakage,Burst water pipe wasting clean water.,Ajah,0.93,0.31,0.64,0.53,0.74,0.14,0.49,0.15
+395,Security Issue,Area experiencing constant theft at night.,Berger,0.18,0.3,0.64,0.77,0.92,0.67,0.58,0.59
+396,Water Leakage,Strong water pressure burst the pipe overnight.,Victoria Island,0.69,0.23,0.33,0.89,0.25,0.27,0.99,0.4
+397,Blocked Drainage,Blocked gutter causing mosquitoes.,Ajah,0.98,0.6,0.9,0.77,0.74,0.85,0.43,0.73
+398,Road Damage,Large pothole causing traffic buildup.,Festac,0.65,0.31,0.74,0.82,0.18,0.2,0.13,0.89
+399,Blocked Drainage,Drainage filled with plastic waste.,Oshodi,0.35,0.74,0.98,0.5,0.3,0.98,0.18,0.58
+400,Fire Hazard,Electric wire sparking near transformer.,Surulere,0.65,0.41,0.51,0.9,0.89,0.21,0.87,0.74
+401,Electricity Outage,Transformer sparking and making noise.,Maryland,0.69,0.94,0.34,0.38,0.9,0.85,0.78,0.57
+402,Road Damage,Part of the road collapsed after rainfall.,Berger,0.13,0.61,0.95,0.13,0.22,0.51,0.12,0.68
+403,Blocked Drainage,Drainage filled with plastic waste.,Ajah,0.18,0.12,0.91,0.64,0.93,0.48,0.79,0.87
+404,Waste Management,Garbage not collected for over a week.,Yaba,0.4,0.23,0.23,0.28,0.36,0.64,0.84,0.14
+405,Water Leakage,Strong water pressure burst the pipe overnight.,Badagry,0.56,0.91,0.4,0.36,0.3,0.15,0.42,0.55
+406,Flooding,"Street flooded after heavy rain, blocking movement.",Festac,0.98,0.55,0.93,0.12,0.46,0.59,0.1,0.29
+407,Flooding,Floodwater entering shops and houses.,Agege,0.97,0.29,0.13,0.64,0.67,0.47,0.78,0.38
+408,Waste Management,Garbage not collected for over a week.,Lekki,0.36,0.93,0.21,0.3,0.31,0.59,0.97,0.25
+409,Blocked Drainage,Blocked gutter causing mosquitoes.,Ikorodu,0.16,0.42,0.17,0.7,0.47,0.32,0.28,0.36
+410,Security Issue,Residents robbed by armed men.,Agege,0.55,0.57,0.54,0.14,0.31,0.26,0.14,0.91
+411,Environmental Pollution,Burning refuse causing air pollution.,Maryland,0.42,0.61,0.59,0.45,0.39,0.68,0.84,0.93
+412,Fire Hazard,Smoke coming from abandoned structure.,Ikorodu,0.28,0.29,0.72,0.3,0.74,0.69,0.65,0.92
+413,Flooding,"Street flooded after heavy rain, blocking movement.",Yaba,0.77,0.65,0.87,0.24,0.24,0.23,0.49,0.63
+414,Environmental Pollution,Thick smoke from nearby factory.,Lekki,0.57,0.28,0.76,0.92,0.99,0.58,0.48,0.19
+415,Blocked Drainage,Sewage water overflowing onto the street.,Victoria Island,0.27,0.57,0.31,0.82,0.69,0.17,0.62,0.57
+416,Environmental Pollution,Thick smoke from nearby factory.,Agege,0.74,0.71,1.0,0.12,0.89,0.37,0.56,0.77
+417,Flooding,Severe flooding due to blocked drainage.,Badagry,0.4,0.97,0.23,0.24,0.96,0.68,0.26,0.71
+418,Environmental Pollution,Oil spill contaminating the ground.,Ajah,0.14,0.13,0.99,0.78,0.11,0.52,0.58,0.33
+419,Environmental Pollution,Burning refuse causing air pollution.,Victoria Island,0.39,0.77,0.62,0.82,0.42,0.72,0.83,0.33
+420,Waste Management,Garbage not collected for over a week.,Agege,0.36,0.3,0.11,0.99,0.29,0.33,0.79,0.57
+421,Blocked Drainage,Blocked gutter causing mosquitoes.,Badagry,0.13,0.4,0.96,0.84,0.4,0.43,0.16,0.43
+422,Waste Management,Overflowing waste bins causing smell and flies.,Lekki,0.49,0.63,1.0,0.68,0.35,0.88,0.84,0.75
+423,Water Leakage,Water leakage causing erosion.,Agege,0.66,0.96,0.37,0.17,0.49,0.24,0.47,0.41
+424,Flooding,Severe flooding due to blocked drainage.,Badagry,0.27,0.66,0.16,0.24,0.24,0.95,0.35,0.58
+425,Road Damage,Large pothole causing traffic buildup.,Surulere,0.7,0.67,0.99,0.69,0.48,0.66,0.18,1.0
+426,Security Issue,Area experiencing constant theft at night.,Yaba,0.71,0.6,0.27,0.57,0.8,0.54,0.15,0.67
+427,Road Damage,Part of the road collapsed after rainfall.,Ikeja,0.25,0.22,0.17,0.17,0.76,0.27,0.56,0.88
+428,Road Damage,Part of the road collapsed after rainfall.,Abule Egba,0.3,0.93,0.71,0.8,0.73,0.79,0.28,0.42
+429,Electricity Outage,Electric poles tilted dangerously.,Badagry,0.47,0.11,0.95,0.5,0.59,0.99,0.58,0.76
+430,Waste Management,Garbage not collected for over a week.,Lekki,0.32,0.68,0.64,0.86,0.8,0.93,0.59,0.78
+431,Blocked Drainage,Sewage water overflowing onto the street.,Berger,0.13,0.12,0.33,0.89,0.58,0.33,0.27,0.42
+432,Environmental Pollution,Burning refuse causing air pollution.,Ajah,0.31,0.36,0.25,0.72,0.96,0.51,0.99,0.36
+433,Road Damage,Part of the road collapsed after rainfall.,Ikorodu,0.18,0.92,0.59,0.51,0.38,0.69,0.7,0.14
+434,Electricity Outage,Power outage for 48 hours.,Lekki,0.22,0.36,0.45,0.55,0.94,0.77,0.19,0.71
+435,Environmental Pollution,Burning refuse causing air pollution.,Oshodi,0.98,0.84,0.74,0.11,0.45,0.26,0.37,0.81
+436,Security Issue,Residents robbed by armed men.,Ajah,0.74,0.24,0.71,0.48,0.94,0.47,0.85,0.35
+437,Waste Management,Garbage not collected for over a week.,Yaba,0.52,0.23,0.57,0.91,0.19,0.31,0.22,0.55
+438,Street Light Fault,Flickering light causing visibility issues.,Ogba,0.39,0.48,0.82,0.75,0.75,0.16,0.72,0.34
+439,Security Issue,Area experiencing constant theft at night.,Ogba,0.55,0.47,0.31,0.34,0.59,0.11,0.14,0.15
+440,Street Light Fault,Flickering light causing visibility issues.,Victoria Island,0.79,0.35,0.18,0.92,0.36,0.39,0.29,0.7
+441,Security Issue,Residents robbed by armed men.,Ikeja,0.79,0.77,0.74,0.7,0.43,0.24,0.23,0.54
+442,Waste Management,Garbage not collected for over a week.,Ajah,0.65,0.67,0.41,0.12,0.93,0.21,0.14,0.24
+443,Road Damage,Large pothole causing traffic buildup.,Maryland,0.61,0.2,0.18,0.29,0.34,0.72,0.59,0.98
+444,Flooding,"Street flooded after heavy rain, blocking movement.",Abule Egba,0.33,0.18,0.76,0.91,0.9,0.48,0.94,0.53
+445,Blocked Drainage,Drainage filled with plastic waste.,Ajah,0.65,0.15,0.14,0.38,0.15,0.22,0.43,0.13
+446,Blocked Drainage,Blocked gutter causing mosquitoes.,Maryland,0.41,0.45,0.47,0.53,0.26,0.28,0.87,0.19
+447,Road Damage,Large pothole causing traffic buildup.,Badagry,0.17,0.56,0.5,0.93,0.37,0.3,0.77,0.12
+448,Road Damage,Part of the road collapsed after rainfall.,Surulere,0.33,0.48,0.62,0.76,0.13,0.75,0.13,0.25
+449,Street Light Fault,Completely dark area at night due to faulty light.,Victoria Island,0.66,0.44,0.5,0.82,0.58,0.8,0.67,0.13
+450,Security Issue,Residents robbed by armed men.,Victoria Island,0.77,0.28,0.7,0.15,0.17,0.57,0.71,0.34
+451,Water Leakage,Burst water pipe wasting clean water.,Ajah,0.48,0.58,0.59,0.48,0.43,0.77,0.22,0.32
+452,Water Leakage,Water leakage causing erosion.,Yaba,0.38,0.97,0.45,0.81,0.29,0.86,0.51,0.83
+453,Street Light Fault,Street light not working for 2 weeks.,Festac,0.94,0.75,0.74,0.82,0.91,0.2,0.72,0.81
+454,Environmental Pollution,Thick smoke from nearby factory.,Lekki,0.34,0.16,0.65,0.41,0.79,0.97,0.8,0.25
+455,Water Leakage,Strong water pressure burst the pipe overnight.,Ikorodu,0.48,0.36,0.51,0.96,0.98,0.9,0.69,0.56
+456,Water Leakage,Burst water pipe wasting clean water.,Badagry,0.49,0.51,0.64,0.6,0.12,0.69,0.99,0.85
+457,Electricity Outage,Power outage for 48 hours.,Yaba,0.46,0.33,0.16,0.88,0.73,0.42,0.56,0.77
+458,Electricity Outage,Electric poles tilted dangerously.,Abule Egba,0.23,0.74,0.22,0.26,0.74,0.5,0.36,0.85
+459,Fire Hazard,Electric wire sparking near transformer.,Lekki,0.41,0.7,0.23,0.26,0.62,0.9,0.52,0.2
+460,Environmental Pollution,Burning refuse causing air pollution.,Lekki,0.37,0.5,0.2,0.14,0.96,0.13,0.53,0.51
+461,Security Issue,Suspicious gang movement reported.,Yaba,0.73,1.0,0.11,0.25,0.4,0.36,0.66,0.64
+462,Street Light Fault,Street light not working for 2 weeks.,Surulere,0.79,0.51,0.57,0.87,0.88,0.78,0.74,0.47
+463,Water Leakage,Strong water pressure burst the pipe overnight.,Ikeja,0.15,0.71,0.66,0.87,0.63,0.79,0.72,0.48
+464,Blocked Drainage,Sewage water overflowing onto the street.,Maryland,0.53,0.47,0.61,0.51,0.1,0.21,0.75,0.28
+465,Flooding,Floodwater entering shops and houses.,Ikeja,0.33,0.13,0.66,0.68,0.64,0.99,0.74,0.95
+466,Security Issue,Residents robbed by armed men.,Badagry,0.2,0.34,0.42,0.45,0.51,0.85,0.84,0.81
+467,Electricity Outage,Electric poles tilted dangerously.,Victoria Island,0.33,0.99,0.79,1.0,0.71,0.53,0.35,0.79
+468,Water Leakage,Water leakage causing erosion.,Agege,0.29,0.4,0.6,0.2,0.68,0.3,0.49,0.81
+469,Security Issue,Residents robbed by armed men.,Surulere,0.63,0.4,0.22,0.65,0.71,0.54,0.5,0.55
+470,Road Damage,Large pothole causing traffic buildup.,Ikeja,0.23,0.66,0.37,0.42,0.54,0.73,0.7,0.24
+471,Water Leakage,Strong water pressure burst the pipe overnight.,Ikeja,0.44,0.42,0.72,0.25,0.66,0.59,0.62,0.36
+472,Waste Management,Overflowing waste bins causing smell and flies.,Abule Egba,0.21,0.14,0.25,0.63,0.97,0.17,0.33,0.24
+473,Blocked Drainage,Drainage filled with plastic waste.,Oshodi,0.16,0.76,0.84,0.78,0.54,0.96,0.97,0.43
+474,Environmental Pollution,Oil spill contaminating the ground.,Yaba,0.27,0.16,0.74,0.78,0.19,0.55,0.94,0.71
+475,Blocked Drainage,Blocked gutter causing mosquitoes.,Oshodi,0.48,0.72,0.17,0.82,0.88,0.5,0.84,0.23
+476,Water Leakage,Water leakage causing erosion.,Agege,0.69,0.31,0.56,0.34,0.28,0.11,0.79,0.82
+477,Fire Hazard,Gas smell around the building.,Abule Egba,0.26,0.22,0.23,0.24,0.52,0.13,0.85,0.12
+478,Fire Hazard,Gas smell around the building.,Ikorodu,0.26,0.15,0.66,0.83,0.72,0.42,0.63,0.62
+479,Flooding,Severe flooding due to blocked drainage.,Agege,0.56,0.24,0.42,0.84,0.68,0.73,0.41,0.75
+480,Water Leakage,Burst water pipe wasting clean water.,Oshodi,0.5,0.98,0.43,0.5,0.52,0.38,0.45,0.92
+481,Waste Management,Overflowing waste bins causing smell and flies.,Ajah,0.41,0.77,0.54,0.38,0.79,0.36,0.93,0.88
+482,Blocked Drainage,Blocked gutter causing mosquitoes.,Berger,0.85,0.82,0.97,0.4,0.63,0.95,0.39,0.87
+483,Blocked Drainage,Blocked gutter causing mosquitoes.,Ajah,0.48,0.15,0.56,0.75,0.32,0.21,0.89,0.25
+484,Security Issue,Area experiencing constant theft at night.,Ajah,0.39,0.78,0.25,0.12,0.2,0.5,0.51,0.78
+485,Waste Management,Illegal dumping of refuse beside the road.,Badagry,0.58,0.61,0.11,0.64,0.56,0.52,0.58,0.96
+486,Street Light Fault,Completely dark area at night due to faulty light.,Surulere,0.16,0.42,0.5,0.77,0.18,0.77,0.98,0.43
+487,Water Leakage,Water leakage causing erosion.,Agege,0.19,0.63,0.76,0.27,0.98,0.67,0.41,0.41
+488,Electricity Outage,Electric poles tilted dangerously.,Festac,0.17,0.2,0.61,0.93,0.72,0.53,0.76,0.35
+489,Waste Management,Overflowing waste bins causing smell and flies.,Ikorodu,0.62,0.24,0.81,0.52,0.86,0.72,0.87,0.57
+490,Fire Hazard,Gas smell around the building.,Abule Egba,0.17,0.27,0.71,0.86,0.85,0.31,0.71,0.36
+491,Fire Hazard,Electric wire sparking near transformer.,Lekki,0.39,0.14,0.36,0.88,0.1,0.67,0.96,0.11
+492,Road Damage,Damaged road making it difficult for vehicles to pass.,Surulere,0.73,0.18,0.66,0.24,0.14,0.65,0.6,0.26
+493,Waste Management,Illegal dumping of refuse beside the road.,Festac,0.22,0.96,0.76,0.65,0.44,0.57,0.91,0.51
+494,Environmental Pollution,Burning refuse causing air pollution.,Berger,0.39,0.21,0.49,0.46,0.5,0.91,0.76,0.91
+495,Electricity Outage,Transformer sparking and making noise.,Oshodi,0.4,0.12,0.39,0.76,0.39,0.95,0.85,0.47
+496,Environmental Pollution,Thick smoke from nearby factory.,Yaba,0.4,0.22,0.91,0.37,0.62,0.31,0.16,0.91
+497,Blocked Drainage,Drainage filled with plastic waste.,Abule Egba,0.83,0.14,0.13,0.54,0.93,0.8,0.29,0.99
+498,Fire Hazard,Electric wire sparking near transformer.,Abule Egba,0.5,0.63,0.72,0.6,0.98,0.34,0.71,0.39
+499,Fire Hazard,Smoke coming from abandoned structure.,Berger,0.28,0.46,0.17,0.79,0.6,0.11,0.39,0.31
+500,Street Light Fault,Flickering light causing visibility issues.,Lekki,0.22,0.44,0.28,0.26,0.59,0.44,0.28,0.67
