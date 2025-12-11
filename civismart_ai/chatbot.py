@@ -7,15 +7,13 @@ openai.api_key = OPENAI_API_KEY
 def get_chatbot_response(user_message: str, use_openai: bool = True) -> str:
     """
     Returns a chatbot response using OpenAI GPT.
-    Params:
-        user_message: str
-        use_openai: bool - if False, returns a demo message
+    Falls back to a demo message if API key is missing or call fails.
     """
     if not use_openai or not OPENAI_API_KEY:
-        return "Chatbot unavailable: OpenAI API key not set or OpenAI disabled."
+        return f"[Demo Chatbot] You asked: {user_message}. Response: Please follow the civic task instructions."
 
     try:
-        # Updated for OpenAI Python v1+
+        # OpenAI v1+ API call
         response = openai.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
@@ -31,4 +29,5 @@ def get_chatbot_response(user_message: str, use_openai: bool = True) -> str:
         answer = response.choices[0].message.content
         return answer
     except Exception as e:
-        return f"Error: {str(e)}"
+        # Fallback to demo response if API call fails (e.g., quota exceeded)
+        return f"[Demo Chatbot] You asked: {user_message}. Response: Please follow the civic task instructions. (OpenAI error: {str(e)})"

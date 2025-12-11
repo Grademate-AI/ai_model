@@ -1,8 +1,10 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import shutil, os
+import os
+import pandas as pd
 from models.model import CiviSmartAI
 from civismart_ai.chatbot import get_chatbot_response
+import sqlalchemy
 
 # -----------------------------
 # Point mapping for volunteers
@@ -60,29 +62,36 @@ def predict(report: Report):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/retrain")
-def retrain(file: UploadFile = File(...)):
-    if not file.filename.endswith(".csv"):
-        raise HTTPException(status_code=400, detail="Only CSV files are accepted.")
 
-    os.makedirs("data", exist_ok=True)
-    temp_path = f"data/temp_retrain_{file.filename}"
-    with open(temp_path, "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
-
+@app.post("/retrain/{db_url}")
+def retrain(db_url: str):
+    """
+    Retrain the AI model using a database URL.
+    db_url should be a valid SQLAlchemy connection string.
+    """
     try:
-        ai.retrain_with_new_data(temp_path)
+        # Connect to the database
+        engine = sqlalchemy.create_engine(db_url)
+        # Assume table "verified_reports" has same columns as dataset CSV
+        df_new = pd.read_sql_table("verified_reports", con=engine)
+
+        # Combine with existing dataset
+        df_old = pd.read_csv(DATASET_CSV)
+        df_combined = pd.concat([df_old, df_new], ignore_index=True)
+        df_combined.to_csv(DATASET_CSV, index=False)
+
+        # Retrain model
+        ai.train()
+        return {"detail": f"Model retrained successfully with {len(df_new)} new rows."}
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Retrain failed: {e}")
-    finally:
-        os.remove(temp_path)
 
-    return {"detail": "Model retrained successfully."}
 
 @app.post("/chat")
 def chat(request: ChatRequest):
     try:
-        response = get_chatbot_response(request.user_message, use_openai=True)  # ensure v1 API compatible
+        response = get_chatbot_response(request.user_message, use_openai=True)
         return {"response": response}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Chatbot failed: {e}")
