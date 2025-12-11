@@ -24,18 +24,19 @@ def call_llm_extract_features(report_text, use_openai=False):
     """
     if use_openai and OPENAI_AVAILABLE and OPENAI_API_KEY:
         openai.api_key = OPENAI_API_KEY
-        response = openai.ChatCompletion.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "You are an AI that extracts numeric features (0-1) from civic reports."},
-                {"role": "user", "content": LLM_FEATURE_PROMPT.format(report_text=report_text)}
-            ]
-        )
-        # Parse JSON response
         try:
+            # Using new v1 API
+            response = openai.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are an AI that extracts numeric features (0-1) from civic reports."},
+                    {"role": "user", "content": LLM_FEATURE_PROMPT.format(report_text=report_text)}
+                ]
+            )
             import json
             features = json.loads(response.choices[0].message.content)
-        except:
+        except Exception:
+            # fallback if parsing fails
             features = _simulate_features()
     else:
         # Use simulated features for MVP/demo

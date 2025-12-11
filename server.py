@@ -81,6 +81,8 @@ def retrain(file: UploadFile = File(...)):
 
 @app.post("/chat")
 def chat(request: ChatRequest):
-    response = get_chatbot_response(request.user_message)
-    return {"response": response}
-#done
+    try:
+        response = get_chatbot_response(request.user_message, use_openai=True)  # ensure v1 API compatible
+        return {"response": response}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Chatbot failed: {e}")
